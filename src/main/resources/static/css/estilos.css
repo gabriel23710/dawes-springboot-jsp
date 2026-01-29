@@ -1,0 +1,81 @@
+/* General */
+body {
+    background-color: #0d0d1a; /* Fondo oscuro azul profundo */
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+}
+
+h1 {
+    color: #8a2be2; /* Morado brillante */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-left: 5px solid #8a2be2;
+    padding-left: 15px;
+}
+
+/* Contenedor de la tabla para bordes redondeados */
+.table-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    border: 1px solid #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1b1b2f; /* Azul oscuro */
+}
+
+/* Encabezados */
+thead {
+    background: linear-gradient(90deg, #8a2be2, #00ffff); /* De morado a cyan */
+}
+
+th {
+    color: #fff;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Filas y Celdas */
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #333;
+    color: #ccc;
+}
+
+/* Efecto Hover: Resalta la fila al pasar el mouse */
+tbody tr:hover {
+    background-color: #2c2c4a;
+    transition: background 0.3s ease;
+}
+
+/* Estilo para el ID (Destacado en cyan) */
+td:first-child {
+    color: #00ffff;
+    font-weight: bold;
+}
+
+/* Botón de actualizar */
+#cargarProductos {
+    background-color: transparent;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+}
+
+#cargarProductos:hover {
+    background-color: #00ffff;
+    color: #1b1b2f;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
